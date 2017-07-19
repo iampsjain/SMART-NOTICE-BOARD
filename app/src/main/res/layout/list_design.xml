@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+   android:background="@drawable/shadow"
+
+    android:layout_marginTop="20dp"
+    >
+
+
+
+
+        <ImageView
+            android:id="@+id/op_ivpic"
+            android:layout_width="44dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:background="@drawable/img"
+            android:src="@drawable/warning"
+           android:padding="3dp"
+
+            >
+        </ImageView>
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:textColor="#000000"
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="match_parent"
+        android:text="This is title"
+        android:id="@+id/tvTitle"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingTop="0dp"
+        android:textColor="#333232"
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/tvDate" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:text="Vivekanand College"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="25dp"
+        android:textColorHighlight="#000000"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:text="Established in 1971 , by the great educationist and a visionary Late Pandharinath Patil alias ‘Bhau’. Its aim is to catered to the educational movement to the rural masses. More than 12500 students are taking education in such a reputed college located at the heart of the city through the UG and PG courses.   The National Assessment and Accredited Council, Bangalore conferred on it. The status of B++ in 2004.The College offers a wide range of courses, extra-curricular activities and technologically advanced facilities accessible to the faculty, the students and the supporting staff. Here, each individual is encouraged to step beyond the confines of academic and administrative disciplines to explore and intervene in the larger interests of the Rural Community who had cherished the dream of uplifting the rural and unprivileged masses. Stepping up in the twenty-first century which is considered as the era of globalization and computer technology. As a result we provide them the conducive infrastructure including a large building, a play ground, a well facilitated library, laboratories, a competent and well equipped computer department, experienced and well trend staff of high academic caliber."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:padding="20dp"
+        android:background="@drawable/myborder"
+        android:layout_weight="0.56" />
+
+</LinearLayout>
+    </ScrollView>

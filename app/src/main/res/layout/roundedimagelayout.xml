@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle"
+
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:paddingTop="20dp"
+            android:text="Contact"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_map"
+            android:paddingTop="20dp"
+            android:text="Map"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:paddingTop="20dp"
+            android:text="Info"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>

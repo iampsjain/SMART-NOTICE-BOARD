@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FF9100">
+
+
+        <TextView
+            android:layout_marginTop="21dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FeedBack"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView4"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+android:background="@drawable/textfile"
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:paddingLeft="20dp"
+            android:ems="10"
+            android:hint="Name (optional)"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+
+            android:background="@drawable/textfile"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+
+
+            android:hint="Email (optional)"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/etName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp" />
+
+        <EditText
+
+            android:background="@drawable/textfile"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="top|left"
+            android:maxLines="10"
+            android:inputType="textMultiLine"
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:ems="10"
+            android:hint="Message"
+            android:lines="10"
+            android:layout_below="@+id/etEmail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="22dp" />
+
+        <Button
+            android:id="@+id/tvSubmit"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="SEND"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#000000"
+            android:layout_below="@+id/etMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="30dp"
+            />
+
+
+    </RelativeLayout>

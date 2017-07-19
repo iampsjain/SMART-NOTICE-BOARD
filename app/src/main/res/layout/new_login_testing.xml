@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:lines="1"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="#ff4500"
+          />
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="Smart Notice Board"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.design.widget.TextInputLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/user"
+
+                android:background="@drawable/textfile"
+                android:width="350dp"
+                android:hint="USERNAME"
+                android:focusable="true"
+
+                android:textAlignment="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/pass"
+
+               android:layout_marginTop="10dp"
+                android:background="@drawable/textfile"
+                android:width="350dp"
+                android:hint="PASSWORD"
+                android:textAlignment="center"
+                android:layout_below="@+id/user" />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="#d67601"
+                android:text="Login"
+                android:onClick="CheckLogin"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:adjustViewBounds="true"
+
+        android:id="@+id/user_profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/login_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/user_profile_image_background"
+        android:elevation="4dp"
+        android:scaleType="fitXY"
+
+
+
+        android:src="@drawable/userimage" />
+</RelativeLayout>
